@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-gray-500 font-bold hover:text-gray-900 transition-all text-lg;
+  }
+  .light-green-btn {
+    @apply bg-green-300 p-4 rounded-full font-bold text-white hover:text-black transition-all;
+  }
+  .link-deco {
+    @apply font-bold text-cyan-400;
+  }
+}
